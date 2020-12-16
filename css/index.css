@@ -1,0 +1,209 @@
+/* 
+    Created on : 15 dic. 2020, 15:59:13
+    Author     : arielrubi
+*/
+body, html{
+    /*color: #fff;
+    background: #006493 !important;
+    background-color: #006493 !important;
+    overflow-x: hidden;
+    overflow-y: hidden;*/
+}
+.logo{
+    width: 300px;
+    margin-top: 4rem!important;
+    margin-bottom: 3rem!important;
+}
+.logo1{
+    width: 300px; 
+    margin-top: -3rem;
+}
+.img-texto{
+    width: 550px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.img-formularios{
+    width: 100px;
+}
+.img-formularios3{
+    margin-left: 350px;
+}
+.img-formularios4{
+    margin-right: 420px;
+}
+.formulario label.info{
+    font-size: 12px; 
+} 
+.text-informacion-req{
+    color: #ced4da!important;
+    font-size: 14px;
+}
+.aplican{
+    position: absolute;
+    color: #fff;
+    font-weight: 800;
+    font-size: 12px;
+    bottom: 50px;
+    right: 120px;
+}
+.bg-azul{
+    background: #005cb9 !important;
+    background-color: #005cb9 !important;
+}
+.form-control{
+    font-size: 14px;
+    height: 35px;
+    border-radius: 50px;
+    background: #ced4da;
+    color:#fff;
+}  
+.principal{
+    height: 850px;
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.btnSolicitar{
+    font-weight: 300;
+} 
+.btnSolicitar:focus, .btnSolicitar:active, .btnSolicitar:hover
+{
+    outline: 0; 
+    box-shadow: none !important;
+}
+.bg-dark{
+    background: #000 !important;
+    background-color: #000 !important;
+}
+#emailHelp, #emailHelp1{
+    font-weight: bold;
+}  
+.exito-gracias{
+    color:#005cb9;
+}
+.color-naranja{
+    color:#f4b223;
+    font-weight: 700;  
+    font-size: 26px;
+}
+@media only screen and (max-width: 1500px){
+    .img-texto{
+        width: 500px; 
+    }
+}
+@media only screen and (max-width: 1380px){
+    .img-texto{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 1250px){
+    .img-texto{
+        width: 430px;
+    }
+}
+@media only screen and (max-width: 1175px){
+    .img-texto{
+        width: 400px;
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .img-texto{
+        width: 370px; 
+    }
+}
+@media only screen and (max-width: 960px){
+    .img-texto{
+        width: 340px; 
+    }
+}
+@media only screen and (max-width: 860px){
+    .img-texto {
+        width: 300px;
+    }
+    .principal {
+        height: 300px;
+    }
+    img-formularios {
+        width: 80px;
+    }
+    .logo{
+        width: 170px;
+        margin-top: -4rem!important;
+        margin-bottom: 0rem!important;
+    } 
+}
+@media only screen and (max-width: 768px){
+
+
+}
+@media only screen and (max-width: 576px){ 
+    .img-formularios2{
+        margin-top: -4rem!important;
+    }
+    .img-formularios3 {
+        margin-left: 280px;
+    }
+    .img-formularios4 {
+        margin-right: 280px;
+        margin-top: 60px;
+    }
+}
+@media (max-width: 380px){
+
+}
+
+@media (max-width: 320px){ 
+    .exito-gracias h4{
+        font-size: 18px;
+    }
+    .img-formularios3 {
+        margin-left: 215px;
+    }
+    .img-formularios4 {
+        margin-right: 195px;
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 900px) and (orientation: landscape) { 
+    .principal {
+        height: 455px;
+    }
+    .btnSolicitar { 
+        font-size: 14px;
+    }
+    .img-formularios2 {
+        margin-top: -1rem!important;
+    }
+    .img-texto {
+        width: 260px;
+    }
+}
+@media only screen and (max-width: 760px) and (orientation: landscape) {
+    .img-texto {
+        width: 225px;
+    }
+    .btnSolicitar { 
+        font-size: 12px;
+    }
+    .text-informacion-req { 
+        font-size: 12px;
+    }
+    .formulario label.info {
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 680px) and (orientation: landscape) {
+    .img-texto {
+        width: 210px;
+    }
+    .formulario label.info {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 570px) and (orientation: landscape) { 
+    .img-texto {
+        width: 300px;
+    }
+}
