@@ -2,12 +2,10 @@
     Created on : 15 dic. 2020, 15:59:13
     Author     : arielrubi
 */
-body, html{
-    /*color: #fff;
-    background: #006493 !important;
-    background-color: #006493 !important;
-    overflow-x: hidden;
-    overflow-y: hidden;*/
+body, html{ 
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 85% 100%; 
 }
 .logo{
     width: 300px;
@@ -25,6 +23,9 @@ body, html{
 }
 .img-formularios{
     width: 100px;
+}
+.img-formularios2{
+    margin-left: 65px;
 }
 .img-formularios3{
     margin-left: 350px;
@@ -60,9 +61,13 @@ body, html{
 }  
 .principal{
     height: 850px;
-    background-image: url("../img/fondo.png");
+}
+.ondulado{
+    height: 850px;
+    background-image: url("../img/ondulado-pc.png");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
+    padding-left: 115px;
 }
 .btnSolicitar{
     font-weight: 300;
@@ -91,21 +96,36 @@ body, html{
     .img-texto{
         width: 500px; 
     }
+    .img-formularios2{
+        margin-left: 35px;
+    }
 }
 @media only screen and (max-width: 1380px){
     .img-texto{
         width: 450px;
+    } 
+    .img-formularios2{
+        margin-left: 15px;
     }
 }
 @media only screen and (max-width: 1250px){
     .img-texto{
         width: 430px;
     }
+    .img-formularios2{
+        margin-left: 0px;
+    }
 }
-@media only screen and (max-width: 1175px){
+@media only screen and (max-width: 1190px){
     .img-texto{
         width: 400px;
         margin-left: 15px;
+    }
+    body, html { 
+        background-size: 75% 100%;
+    }
+    .aplican { 
+        right: 60px;
     }
 }
 @media only screen and (max-width: 1080px){
@@ -113,10 +133,14 @@ body, html{
         width: 370px; 
     }
 }
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 980px){
     .img-texto{
         width: 340px; 
     }
+
+    .btnSolicitar {
+        font-size: 12px;
+    } 
 }
 @media only screen and (max-width: 860px){
     .img-texto {
@@ -135,10 +159,34 @@ body, html{
     } 
 }
 @media only screen and (max-width: 768px){
-
-
+    body, html {
+        background-size: 80%;
+    }
+    .img-texto {
+        width: 225px;
+        margin-top: 10px;
+        margin-left: -2px;
+    }
+    .aplican {
+        bottom: -111px;
+        right: 4px;
+    }
 }
 @media only screen and (max-width: 576px){ 
+    body, html {
+        background-size: 100%;
+    }
+    .ondulado{ 
+        height: auto;
+        background: #fff !important;
+        padding-left: 0px;
+    }
+    .ondulado1{
+        margin-top: -95px;
+        background-image: url(../img/ondulado-cel.png);
+        background-repeat: no-repeat;
+        background-size: 100%; 
+    }
     .img-formularios2{
         margin-top: -4rem!important;
     }
@@ -149,12 +197,26 @@ body, html{
         margin-right: 280px;
         margin-top: 60px;
     }
+    .btnSolicitar {
+        font-size: 14px;
+    }
 }
 @media (max-width: 380px){
-
+    .ondulado1 {
+        margin-top: -115px;
+    }
+    .ondulado { 
+        margin-top: -30px;
+    }
+    .img-texto {
+        width: 215px;
+    }
 }
 
 @media (max-width: 320px){ 
+    .img-texto {
+        width: 185px;
+    }
     .exito-gracias h4{
         font-size: 18px;
     }
@@ -165,10 +227,17 @@ body, html{
         margin-right: 195px;
         margin-top: 25px;
     }
+    .ondulado1 {
+        margin-top: -140px; 
+        margin-left: 0px;
+    }
+    .ondulado { 
+        margin-top: -60px;
+    }
 }
 @media only screen and (max-width: 900px) and (orientation: landscape) { 
-    .principal {
-        height: 455px;
+    .principal, .ondulado {
+        height: 470px;
     }
     .btnSolicitar { 
         font-size: 14px;
@@ -179,8 +248,26 @@ body, html{
     .img-texto {
         width: 260px;
     }
+    body, html {
+        background-size: 80%;
+    }
+    .aplican { 
+        bottom: 25px;
+        right: 10px;
+    }
 }
 @media only screen and (max-width: 760px) and (orientation: landscape) {
+    .ondulado{ 
+        height: auto;
+        background: #fff !important;
+        padding-left: 0px;
+    }
+    .ondulado1{
+        margin-top: -95px;
+        background-image: url(../img/ondulado-cel.png);
+        background-repeat: no-repeat;
+        background-size: 100%; 
+    }
     .img-texto {
         width: 225px;
     }
@@ -193,17 +280,35 @@ body, html{
     .formulario label.info {
         font-size: 11px;
     }
+    body, html {
+        background-size: 100%;
+    }
+    .img-texto {
+        width: 325px;
+    }
+    .ondulado1 {
+        margin-top: -160px;
+    }
+    .ondulado {
+        padding-left: 0px;
+    }
 }
 @media only screen and (max-width: 680px) and (orientation: landscape) {
-    .img-texto {
-        width: 210px;
-    }
     .formulario label.info {
         font-size: 10px;
+    }
+    .ondulado1 {
+        margin-top: -145px;
     }
 }
 @media only screen and (max-width: 570px) and (orientation: landscape) { 
     .img-texto {
         width: 300px;
+    }
+    .ondulado1 {
+        margin-top: -190px;
+    }
+    .ondulado { 
+        margin-top: -70px;
     }
 }
